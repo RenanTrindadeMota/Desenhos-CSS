@@ -1,0 +1,81 @@
+
+ body {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    justify-content: center;
+}
+
+::before, ::after {
+    content: "";
+    position: absolute;
+    }
+
+.container {
+    position: relative;
+    width: 700px;
+    height: 500px;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.ret1 {
+    background-color: black;
+    width: 650px;
+    height: 110px;
+    margin-top: 400px;
+    border-top-right-radius: 70%;
+    border-bottom-right-radius: 25%;
+    border-bottom-left-radius: 25%;
+    border-top-left-radius: 20%;
+    margin-bottom: -50px;
+    display: flex;
+
+}
+
+.roda1 {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 3px solid white;
+    background-color: black;
+    margin-left: 500px;
+    display: flex;
+}
+
+.roda2 {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 3px solid white;
+    background-color: black;
+    margin-left: 50px;
+    margin-top: -100px;
+    display: flex;
+    position: absolute;   
+}
+
+.frente {
+    background-color: black;
+    width: 120px;
+    height: 30px;
+    border-radius: 3px;
+    transform: rotate(45deg);
+    display: flex;
+    position: absolute;
+    margin-top: -170px;
+    margin-left: 415px;
+}
+
+.atras {
+    background-color: black;
+    width: 150px;
+    height: 70px;
+    border-radius: 8px;
+    transform: rotate(160deg);
+    display: flex;
+    position: absolute;
+    margin-top: -180px;
+    margin-left: 110px;
+}
